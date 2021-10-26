@@ -3,7 +3,7 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     height: auto;
     left: 0;
     padding: 10px;
@@ -14,13 +14,6 @@
     width: 100%;
 }
 
-.cloumn-flexing {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    right: 40px;
-}
-
 span {
     padding: 10px;
 }
@@ -28,6 +21,7 @@ span {
 .nav-list {
     color: cyan;
     list-style-type: none;
+    font-size: large;
     margin: 0 10px;
     max-width: 90%;
     padding: 0;
